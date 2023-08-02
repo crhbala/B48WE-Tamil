@@ -1,0 +1,27 @@
+
+/* .name{
+  width: 200px;
+}
+.Dname{
+   padding:0px 185px 2px 2px;
+} */
+/* .fullpage{
+    display: flex;
+} */
+.menu{
+    color: white;
+}
+.titlename{ 
+    color: white;
+}
+/* .fullpage{
+    background-color: rgb(46, 37, 37);
+} */
+.writer{
+    /* background: navajowhite; */
+    /* color: white; */
+   background-color: black;
+}
+.poetdetials{
+    background-color: black;
+}
