@@ -1,0 +1,67 @@
+.icon-title{
+    display: flex;
+    
+    background-color: rgb(42, 68, 72);
+    color: white;
+    height: 80px;
+    width: 100%;
+}
+body{
+    margin: 0%;
+    background-color: rgb(178, 186, 178);
+}
+.title{
+    display: flex;
+    justify-content: center;
+width: 100%;
+margin-top: 25px;
+font-family: 'Lexend Deca', sans-serif;
+font-size: 20px;
+letter-spacing: 2px;
+}
+.body-box{
+    display: flex;
+    border-radius: 10px;
+    border: 1px solid black;
+    height: 400px;
+    width: 20%;
+    margin: 5%;
+    float: left;
+    background-color: rgb(52, 49, 49);
+}
+.vertical-ln-box{
+    display: flex;
+    justify-content: start;
+    border-radius: 8px;
+    border: 1px solid black;
+    height: 40px;
+    width: 55%;
+    margin-left: 5%;
+    margin-top: 50px;
+    float: left;
+    background-color:rgb(52, 49, 49);
+    font-weight: bold;
+}
+.box{
+    display: flex;
+    border-radius: 10px;
+        border: 1px solid black;
+        height: 100px;
+        width: 18%;
+        margin-left: 3%;
+        margin-top: 45px;
+        float: left;
+        background-color: rgb(52, 49, 49);
+}
+.vertical-box {
+    display: flex;
+        justify-content: start;
+        border-radius: 8px;
+        border: 1px solid rgb(46, 44, 44);
+        height: 160px;
+        width: 60%;
+        margin-left: 3%;
+        margin-top: 50px;
+        float: left;
+        background-color:rgb(52, 49, 49);
+}
