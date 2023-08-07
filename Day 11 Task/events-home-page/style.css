@@ -1,0 +1,53 @@
+.full-form{
+    border: 2px solid black;
+    width: 100%;
+    height: 500px;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+.event-ditails{
+    border: 2px solid black;
+    width: 93%;
+    height: 300px;
+    margin: 42px;
+    overflow: auto;
+}
+img{
+    width: 20%;
+    height: 200px;
+    float: left;
+    margin: 30px;
+    border: 1px solid black;
+}
+.reservation-form{
+margin: 0px auto;
+padding: 20px 0;
+margin: 40px;
+width: 80%;
+}
+.form-field {
+display: flex;
+justify-content:flex-end;
+margin: 3px;
+}
+.no-seats {
+    display: flex;
+    justify-content: end;
+    margin: 3px;
+    padding-right: 18.8%;
+    
+}
+input{
+    display: flex;
+    border: 1.5px black solid;
+    width: 250px;
+}
+select{
+    border: 1.5px solid black;
+    width: 80px;
+}
+.submitbutton{
+    display: flex;
+    justify-content: center;
+}
