@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Bible</title>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+    <style>
+        @media(max-width: 470px) {
+            .search input {
+                padding: 4px 5px;
+                margin-right: 6px;
+                height: 40px;
+            }
+
+            .card {
+                padding: 30px 5px;
+            }
+            .search button img {
+            width: 20px;
+            }
+            .search button {
+                width: 40px;
+                height: 40px;
+            }
+            .bible h1 {
+                font-size: 40px;
+                font-weight: 500;
+                margin-top: 70px;
+            }
+            .bible h2 {
+                font-size: 25px;
+                font-weight: 400;
+                margin-top: 12px;
+
+            }
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div class="card">
+        <div class="search">
+            <input type="text" placeholder="enter bible verse" spellcheck="false">
+            <button><img src="./search button.png"></button>
+        </div>
+        <div class="error">
+            Invalid bible name
+        </div>
+        <div class="bible">
+            <h1 class="reference"></h1>
+            <h2 class="bibleVerse"></h2>
+        </div>
+    </div>
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
