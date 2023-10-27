@@ -1,6 +1,16 @@
-import React from 'react';
+import React, { useState } from 'react';
 
-function AppCard() {
+function AppCard(props) {
+
+    const [cart, setCart] = useState(0);
+    
+
+    const addCart = () => {
+        setCart(2);
+        // props.setGetData(cart);
+        console.log(cart);
+    }
+
   return (
       <div>
           <div className="col mb-5">
@@ -13,7 +23,7 @@ function AppCard() {
                             <div className="card-body p-4">
                                 <div className="text-center">
                                     {/* <!-- Product name--> */}
-                                    <h5 className="fw-bolder">Special Item</h5>
+                                    <h5 className="fw-bolder">{props.ItemName}</h5>
                                     {/* <!-- Product reviews--> */}
                                     <div className="d-flex justify-content-center small text-warning mb-2">
                                         <div className="bi-star-fill"></div>
@@ -24,12 +34,12 @@ function AppCard() {
                                     </div>
                                     {/* <!-- Product price--> */}
                                     <span className="text-muted text-decoration-line-through">$20.00</span>
-                                    $18.00
+                          $18.00
                                 </div>
                             </div>
                             {/* <!-- Product actions--> */}
                             <div className="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                <div className="text-center"><a className="btn btn-outline-dark mt-auto" href="#">Add to cart</a></div>
+                      <div className="text-center"><a className="btn btn-outline-dark mt-auto" href="#"  onClick={addCart}>Add to cart</a></div>
                             </div>
                         </div>
                     </div>

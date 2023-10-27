@@ -1,6 +1,13 @@
 import React from 'react';
 
-function NavBar() {
+function NavBar({ cart, setCart }) {
+
+    function removeCart() {
+        if (cart > 0) {
+            setCart(cart - 1);
+        }
+    }
+
   return (
       <div>
                  <nav className="navbar navbar-expand-lg navbar-light bg-light">
@@ -22,10 +29,10 @@ function NavBar() {
                         </li>
                     </ul>
                     <form className="d-flex">
-                        <button className="btn btn-outline-dark" type="submit">
+                        <button className="btn btn-outline-dark" type="submit" onClick={removeCart}>
                             <i className="bi-cart-fill me-1"></i>
                             Cart
-                            <span className="badge bg-dark text-white ms-1 rounded-pill">0</span>
+                              <span className="badge bg-dark text-white ms-1 rounded-pill">{cart }</span>
                         </button>
                     </form>
                 </div>
